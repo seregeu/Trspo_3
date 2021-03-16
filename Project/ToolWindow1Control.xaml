@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Trspo2.ToolWindow1Control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vsshell="clr-namespace:Microsoft.VisualStudio.Shell;assembly=Microsoft.VisualStudio.Shell.15.0"
+             Background="{DynamicResource {x:Static vsshell:VsBrushes.WindowKey}}"
+             Foreground="{DynamicResource {x:Static vsshell:VsBrushes.WindowTextKey}}"
+             mc:Ignorable="d"
+             d:DesignHeight="300"
+Name="MyToolWindow" Width="Auto ">
+    <Grid Width="Auto" Margin="0,0,0,-0.2" Background="#FF865FC5">
+        <ListView Margin="10,36,10.2,53" Name="Statistic" TextBlock.Foreground="#000000" FontWeight="Light" Background="#FFF6F6F6">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding= "{Binding FunctionName}"
+Header="FunctionName"
+Width="200"/>
+                    <GridViewColumn DisplayMemberBinding= "{Binding KeyWordCount }"
+Header="KeyWordCount"
+Width="100"/>
+                    <GridViewColumn DisplayMemberBinding= "{Binding LinesCount }"
+Header="LinesCount"
+Width="100"/>
+                    <GridViewColumn DisplayMemberBinding= "{Binding WithoutComments }"
+Header="WithoutComments"
+Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Renew" Margin="212.3,0,212.3,10.2" BorderBrush="#FFD0D0D0" FontFamily="Segoe UI" Click="button1_Click" Height="25" VerticalAlignment="Bottom" Background="#FFF6F6F6"/>
+        <Label Content="VS plugin" Height="31" Margin="198,0,161.6,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Segoe UI" FontSize="16" FontWeight="Bold"/>
+    </Grid>
+</UserControl>

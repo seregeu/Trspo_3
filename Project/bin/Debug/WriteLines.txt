@@ -1,0 +1,4193 @@
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 =  ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 =  ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 =  ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{
+    return 0;
+}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
+_int test1() {}
+void test2() {}
+void test3() { return; }
+void test4() /**/
+
+{
+    int a = reinterpret_cast<const char*>((struct a { int x; })(char*) 0);
+    return;
+}
+void test5(int x, /**/
+
+    /**/
+
+    int z)
+{
+    return;
+}
+void test6()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/int y3 = 0;
+    int y4 = 'int ';
+    int y5 = "int";
+    _int y7 = 0;
+    return;
+}
+void test7()  /**/
+
+{
+    int y1 = 0;/**/
+
+    int y2 = 0;/**/
+
+    int y4 = 0;/**/
+
+    int y5 = 0;
+    _int y7 = 0;
+    return;
+}
+void test8()  /**/
+
+{
+    int y1 = "\
+int";
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y5 = "   
+        int y7 = 0;
+    return;
+}
+void test9()  /**/
+
+{
+    int y1 = 1;/**/
+    int y7 = 0;
+    return;
+}
+void test10()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'int\'';
+    int y4 = "" "int" "";/**/
+
+    int y7 = 0;
+    return;
+}
+void test11()  /**/
+
+{
+    /**/
+
+    int y1 = 1;/**/int/**/ y7 = 0;
+return;
+}
+void test12()  /**/
+
+{
+    /**/
+
+    int y2 = "\"int\"";
+    int y3 = '\'*/int/*\'';
+    int y4 = "" "int" "";/**/
+
+    int* / y7 = 0;
+    return;
+}
+void test13()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\
+    int y3 = 0;\
+    int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test14()  /**/
+
+{
+    int y1 = 0;
+    int y2 = "\ 
+        int y3 = 0;\
+        int y4 = 0;" int
+        /**/ y5 = 0;
+    return;
+}
+void test15()  /**/
+
+{
+    int y1 = 0;
+    /**/
+
+    /**/ y5 = 0;
+    return;
+}
+void test16()  /**/
+
+{ /**/ y5 = 0;
+    return;
+}
+void test17() /**/
+
+{
+    char* p = " int \
+int;
+int y = 0;
+    " // " int i;
+    /**/
+
+    int;
+
+}
+void test18() /**/
+
+{
+    const char* y = " char ";
+    const char* y1 = "char";
+    const char* y2 = "char" ""  "char";
+    const char* y3 = "\
+int\
+";
+    const char* y4 = " char;
+        char
+
+}
+void test19(/**/
+
+    int i,
+    /**/
+
+    void* a)
+{
+    /**/
+
+    int i;
+}
+void test20()
+{
+    int y = 0;
+    /**/
+
+    int i;
+    /**/
+
+}
+int main()
+{/**/
+    return 0;
+/**/}
